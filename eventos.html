@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GTATIC - Eventos</title>
+    <link rel="icon" href="assets/favicon.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: "Montserrat", sans-serif;
+            background-color: #181b1f;
+            color: #ffffff;
+        }
+
+        /* Header */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 25px;
+            background-color: #181b1f;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        .gtaticfoto {
+            width: 120px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            display: flex;
+            gap: 30px;
+        }
+
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #f39c12; /* Cor de destaque ao passar o mouse */
+        }
+
+        /* Main Section */
+        main {
+            max-width: 800px;
+            margin: 30px auto;
+            padding: 20px;
+            background: #2c2f34; /* Fundo da seção principal */
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        h2 {
+            color: #f39c12; /* Cor de destaque */
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+
+        /* Estilo dos cartões de evento */
+        .evento-card {
+            background-color: #3a3f43; /* Fundo mais claro para os cards */
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+            transition: transform 0.3s, background-color 0.3s;
+        }
+
+        .evento-card:hover {
+            transform: scale(1.02); /* Efeito de zoom ao passar o mouse */
+            background-color: #4b4f53; /* Mudança de cor ao passar o mouse */
+        }
+
+        .evento-card h3 {
+            color: #f39c12; /* Título em cor de destaque */
+            font-size: 22px;
+            margin-bottom: 10px;
+        }
+
+        .evento-card p {
+            font-size: 20px;
+            color: #ddd;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #444;
+            color: #fff;
+            margin-top: 20px;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="assets/gtatic.png" alt="Logotipo do GTATIC" class="gtaticfoto">
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="noticias.html">Notícias</a></li>
+                <li><a href="partidas.html">Partidas Competitivas</a></li>
+                <li><a href="eventos.html">Eventos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Eventos Futuros</h2>
+        <div class="evento-card">
+            <h3>Evento: Blast Showdown</h3>
+            <p>Data: 01/12/2023</p>
+            <p>Local: Arena XYZ</p>
+        </div>
+        <div class="evento-card">
+            <h3>Evento: Torneio de VALORANT</h3>
+            <p>Data: 15/12/2023</p>
+            <p>Local: Estádio ABC</p>
+        </div>
+        <div class="evento-card">
+            <h3>Evento: Campeonato de League of Legends</h3>
+            <p>Data: 20/12/2023</p>
+            <p>Local: Centro de Convenções DEF</p>
+        </div>
+        <div class="evento-card">
+            <h3>Evento: Copa do Mundo de DOTA 2</h3>
+            <p>Data: 05/01/2024</p>
+            <p>Local: Estádio GHI</p>
+        </div>
+        <div class="evento-card">
+            <h3>Evento: Festival de Jogos Indies</h3>
+            <p>Data: 10/02/2024</p>
+            <p>Local: Pavilhão JKL</p>
+        </div>
+        <div class="evento-card">
+            <h3>Evento: Conferência de Tecnologia em E-Sports</h3>
+            <p>Data: 25/03/2024</p>
+            <p>Local: Auditório MNO</p>
+        </div>
+        <div class="evento-card">
+            <h3>Evento: Campeonato Brasileiro de CS2</h3>
+            <p>Data: 15/01/2024</p>
+            <p>Local: Arena PQR</p>
+        </div>
+        <div class="evento-card">
+            <h3>Evento: ESL Pro League - Season 18</h3>
+            <p>Data: 10/02/2024</p>
+            <p>Local: Centro de Eventos STU</p>
+        </div>
+        <div class="evento-card">
+            <h3>Evento: IEM Katowice 2024</h3>
+            <p>Data: 12/03/2024</p>
+            <p>Local: Spodek Arena, Katowice</p>
+        </div>
+        <div class="evento-card">
+            <h3>Evento: DreamHack Masters - Spring 2024</h3>
+            <p>Data: 20/04/2024</p>
+            <p>Local: Centro de Exposições VWX</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 GTATIC. Todos os direitos reservados.</p>
+    </footer>
+</body>
+
+</html>
