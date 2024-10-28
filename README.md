@@ -1,7 +1,5 @@
 # 🎮 Gtatic - Seu Portal de Notícias sobre Jogos FPS
 
-![Banner do Gtatic](assets/gtatic.png) <!-- Substitua pelo seu banner se tiver -->
-
 ## 📖 Descrição
 
 **Gtatic** é um site estático dedicado a fornecer as últimas notícias, análises e atualizações sobre jogos de tiro em primeira pessoa (FPS). Com uma interface limpa e amigável, nosso objetivo é manter você informado sobre tudo que acontece no mundo dos FPS.
