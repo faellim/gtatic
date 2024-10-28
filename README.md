@@ -26,4 +26,4 @@
 1. Clone o repositório:
 
    ```bash
-   git clone https://github.com/seuusuario/gtatic.git
+   git clone https://github.com/faellim/gtatic.git
