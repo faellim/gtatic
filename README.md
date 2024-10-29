@@ -20,10 +20,3 @@
 
 - **Azul**: ![#007bff](https://via.placeholder.com/15/007bff/000000?text=+) `#007bff`
 - **Amarelo**: ![#ffc107](https://via.placeholder.com/15/ffc107/000000?text=+) `#ffc107`
-
-## 📥 Como Começar
-
-1. Clone o repositório:
-
-   ```bash
-   git clone https://github.com/faellim/gtatic.git
