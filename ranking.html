@@ -5,7 +5,203 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GTATIC - Ranking de CS2</title>
     <link rel="icon" href="assets/favicon.png" type="image/png">
-    <link rel="stylesheet" href="styles/style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: #181b1f;
+    color: #ffffff;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 25px;
+    background-color: #181b1f;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.gtaticfoto {
+    width: 120px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #f39c12; /* Cor de destaque ao passar o mouse */
+}
+
+/* Hero Section */
+.hero {
+    background-color: #2c2f34;
+    padding: 60px 20px;
+    text-align: center;
+    border-bottom: 5px solid #f39c12; /* Linha de destaque */
+}
+
+.hero h2 {
+    font-size: 36px;
+}
+
+.hero p {
+    font-size: 20px;
+    color: rgb(190, 190, 190);   
+}
+
+/* Seção de Notícias */
+.noticias, .partidas {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.noticias h2 {
+    color: #f39c12; /* Cor de destaque */
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.partidas h2 {
+    color: #f39c12; /* Cor de destaque */
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.noticia-card, .partida-card {
+    background-color: #3a3f43; /* Fundo mais claro para os cards */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.noticia-card:hover, .partida-card:hover {
+    transform: scale(1.02); /* Efeito de zoom ao passar o mouse */
+    background-color: #4b4f53; /* Mudança de cor ao passar o mouse */
+}
+
+.csfoto {
+    width: 50px; /* Aumentando a imagem dos times */
+    margin-bottom: 0.3rem;
+}
+
+.cspremiacao {
+    margin-top: 0.5rem;
+}
+
+.csinfos {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+.noticia-card h3, .partida-card h3 {
+    color: #f39c12; /* Título em cor de destaque */
+
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.noticia-card p, .partida-card p {
+    font-size: 20px;
+    color: #ddd;
+}
+
+/* Ranking Section */
+.ranking {
+    padding: 80px 80px;
+    max-width: 1800px; /* Aumenta a largura do container */
+    margin: 0px ;
+}
+
+.ranking h2 {
+    color: #f39c12;
+    font-size: 32px; /* Aumenta o tamanho da fonte do título */
+    margin-bottom: 20px;
+    text-align: center; /* Centraliza o título */
+}
+
+.ranking-container {
+    display: flex;
+    justify-content: space-between 18px; /* Espaçamento entre as listas */
+    flex-wrap: wrap; /* Permite que as listas se movam para a próxima linha em telas menores */
+}
+
+.ranking-list {
+    flex: 1; /* Permite que cada lista ocupe espaço igual */
+    max-width: 800px; /* Limita a largura das listas */
+    margin: 0 20px; /* Espaçamento lateral entre as listas */
+    background-color: #3a3f43; /* Fundo mais claro para as listas */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.ranking-item {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 8px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.ranking-item:hover {
+    background-color: #444; /* Cor de fundo ao passar o mouse */
+    transform: scale(1.01);
+}
+
+.ranking-position {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f39c12;
+    width: 50px;
+    text-align: center;
+}
+
+.ranking-img {
+    width: 50px; /* Aumenta o tamanho da imagem */
+    height: 50px; /* Aumenta o tamanho da imagem */
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.ranking-team-name,
+.ranking-player-name {
+    font-size: 20px; /* Aumenta o tamanho da fonte dos nomes */
+    color: #ffffff;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #444;
+    color: #fff;
+    margin-top: 20px;
+    width: 100%;
+}
+    </style>
 </head>
 <body>
     <header>
