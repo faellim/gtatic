@@ -1,4 +1,5 @@
 # 🎮 Gtatic - Seu Portal de Notícias sobre Jogos FPS
+![Banner do Gtatic](assets/gtatic.png)
 
 ## 📖 Descrição
 
