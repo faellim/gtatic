@@ -21,3 +21,5 @@
 
 - **Azul**: ![#007bff](https://via.placeholder.com/15/007bff/000000?text=+) `#007bff`
 - **Amarelo**: ![#ffc107](https://via.placeholder.com/15/ffc107/000000?text=+) `#ffc107`
+
+- acesse o site do projeto: https://faellim.github.io/gtatic
