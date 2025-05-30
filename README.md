@@ -3,7 +3,7 @@
 
 ## 📖 Descrição
 
-**Gtatic** é um site estático dedicado a fornecer as últimas notícias, análises e atualizações sobre jogos de tiro em primeira pessoa (FPS). Com uma interface limpa e amigável, nosso objetivo é manter você informado sobre tudo que acontece no mundo dos FPS.
+**Gtatic** é um site estático dedicado a fornecer as últimas notícias, análises e atualizações sobre jogos (FPS). Com uma interface limpa e amigável, nosso objetivo é manter você informado sobre tudo que acontece no mundo dos FPS.
 
 ## 🌟 Recursos
 
